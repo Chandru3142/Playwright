@@ -47,6 +47,7 @@ const config = {
     screenshot: 'only-on-failure',
     trace: "on",
   },
+  
 
   /* Configure projects for major browsers */
   projects: [

@@ -21,17 +21,7 @@ test('Admin login',async({page})=>
 //     await page.locator(adminProfile).waitFor();
 //     await page.close();
 
-    //forgot username
-    // await page.locator("xpath=//a[text()='Forgot Username?']").click();
-    // await page.locator("[id='Email']").type("chandru3142@mailinator.com");
-    // await page.locator("[type='submit']").click();
-    // await page.locator("xpath=//a[text()='Back to Log-In']").click();
-
-    //forgot password
-    await page.locator("xpath=//a[text()='Forgot Password?']").click();
-    await page.locator("[id='UserName']").type("chandru3142");
-    await page.locator("[type='submit']").click();
-    await page.locator("xpath=//a[text()='Back to Log-In']").click();
+   
 
 
 })
