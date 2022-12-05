@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Dec 05 18:21:02 IST 2022","Mon Dec 05 18:21:23 IST 2022","20636","firefox","ByjusCRM.spec.js","","","","Byjus CRM Login",""
+"passed","Mon Dec 05 11:22:29 IST 2022","Mon Dec 05 11:23:16 IST 2022","46502","firefox","MagnifyUserLogin.spec.js","","","","login using forgot password",""
+"passed","Fri Nov 25 12:02:22 IST 2022","Fri Nov 25 12:02:37 IST 2022","14566","firefox","practise.spec.js","","","","visual screenshot comparison",""
