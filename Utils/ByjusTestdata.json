@@ -1,0 +1,28 @@
+{
+    "Scenarios": {
+        "Scenario 1-Byjus CRM Successfull Login":
+         {
+            "Url": "https://dev-leadcrm.byjusorders.com/",
+            "email": "[id='email']",
+            "password": "[id='password']",
+            "hidepass":"[class='MuiSvgIcon-root']",
+            "loginButton": "[type='submit']",
+            "ValidUsername": "admin@example.com",
+            "Validpassword": "By009$10"
+        },
+        "Scenario 2-Texfields are editable or not": {
+            "Url": "https://dev-leadcrm.byjusorders.com/",
+            "email": "[id='email']",
+            "password": "[id='password']"
+        },
+        "Scenario 3- Forgot Password": {
+            "Url": "https://dev-leadcrm.byjusorders.com/",
+            "forgotPassword ": "//a[text()='Forgot Password?'']",
+            "email": "[id='email']",
+            "ValidUsername": "admin@example.com",
+            "loginButton": "[type='submit']"
+        }
+    }
+}
+const InvalidUsername = "abcd@zingalala.com"
+const InvalidPassword = "1234567890"

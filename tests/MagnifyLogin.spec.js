@@ -1,7 +1,7 @@
 const {test}=require("@playwright/test")
 const dataset=JSON.parse(JSON.stringify(require("../Utils/MagnifyTestData.json")));
 
-test('Login to Magnify', async({page})=>
+test('Magnify sign up', async({page})=>
 {   const URL="https://rohitk.learn-wize.com/Account/Login";
     const Register="[id='CreateBUUser']"
     const language="select[id='LanguageId']";;

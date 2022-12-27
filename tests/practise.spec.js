@@ -70,7 +70,7 @@ test('validations test', async({page})=>
 
 });
 
-test('screenshot',async({page})=>
+test.only('screenshot',async({page})=>
 {
    await page.goto("https://www.rahulshettyacademy.com/AutomationPractice/");
     //text box hide and show
@@ -82,7 +82,7 @@ test('screenshot',async({page})=>
    console.log( await page.locator('#displayed-text').isVisible());
 })
 
-test.only('visual screenshot comparison',async({page})=>
+test('visual screenshot comparison',async({page})=>
 {
    await page.goto("https://www.google.co.in/");
    expect(await page.screenshot()).toMatchSnapshot("compare.png");
